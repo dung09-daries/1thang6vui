@@ -1,16 +1,21 @@
 // Nội dung bức thư gửi Hà Ngọc Diệu Linh
-const textToType = `Chào emm bee yêu cô gái anhh thương nhất anhh đã làm cho emm thất vọng rất nhiều ruii aa emm bee ơi anhh muốn gặp emm để ôm emm thật lâu vô long và cho emm bee trút hết những sự thất vong nớ vô anhh, anhh luôn là người gây ra rắc rối cho emm bee aa , emm bee vì anhh mà thất vọng rất laa nhìu , lúc emm bee mệt anhh cx gây chuyện lúc emm bee họt baii anhh cũm gây chuyên aa...
+const textToType = `Hello em bé yêu! 
 
-Đây anhh nói hemm phải là nói lẫy hay chi aa nhma anhh chộ như rua thiệt từ khi yêu anh emm bee bị anhh kiểm soát nhiều quái lúc mô cũng cấm emm bee cấy ni cấy tê hêm cho emm bee được làm chính mình cũn vì sự ích kỉ của mình maaa lamm cho emm bee khó chịu hemm vui , đôi lúc anhh nóng giận nữa những lúc nớ anhh đã vô tình k kiểm soát đc cảm xúc của anhh làm cho emm bee bị mất mặt trước tất cả mọi người...
+Chiều nay anh mới lấy hết can đảm để viết những dòng này cho em. Anh nhớ em nhiều lắm, nhưng sợ làm phiền em nên anh không dám nhắn tin напрямую...
 
-Từ trước đến h anhh chưa từng yêu 1 cách đàng hoàng aa nhma từ khi gặp emm bee aa anhh cảm giác được yêu hắn như rang hắn khó tả lắm kiểu như được qtam môi khi bị chi đó … nhma niềm vui hemm được lâu thì anhh lại làm emm thất vọng anhh vs emm bee đã cãi nhau hơn 1 tháng vẫn chưa có dấu hiệu dừng lại những niềm vui thường tới rất sớm nhưng đi cx sớm để lại sau đó là những nỗi buồn , đêm mô nằm anhh cx khóc hết aaa hemm phai vi buồn mà là khóc vì anhh đã làm cho cô gái của anhh thươnng buồn thất vọng.
+Gần 3 tháng từ ngày em nói chia tay, nhưng chưa một khoảnh khắc nào anh muốn em rời đi cả. Lúc còn ở bên anh, anh chỉ toàn mang lại phiền phức và làm em phải khóc. Ngày trước khi em chưa đi, anh còn có thể tìm em, hỏi xem em đang làm gì. Còn bây giờ, mỗi lần nhớ em, anh chỉ biết vào TikTok tìm em rồi ngồi ngẩn người ra... Anh lại mở máy coi lại những bức hình cũ, nhìn mấy con gấu bông em tặng mà cứ ngắm mãi. Đi học, ngồi ở đâu mắt anh cũng chỉ hướng về phía em.
 
-Nhma cho dù emm bee coos nói chi nặng lời vs anhh hay nói chia tay cả ngàn lần cả tram lần đi nữa thì anhh sẽ k bao h đồng ý mô aa vì emm bee là một nữa của anhh , anhh k còn chi trong tay nữa , anhh mong emm sẽ ở bên anhh aaa hemm rời đi nũa aaa...
+Anh nhớ em bé nhiều lắm! Nhưng có lẽ đây là hình phạt đích đáng dành cho anh. Anh đã dối em hết lần này đến lần khác, lại còn làm những điều em không thích. Cắc chắn em đã phải chịu đựng và khó chịu với anh lắm mới quyết định buông tay như vậy. Anh quá vụng về, ích kỷ và đã làm tổn thương người quan trọng nhất cuộc đời mình.
 
-Nãy h nói đủ ruii nhma 1/6 ni anhh chúc cho cô gái của anhh luôn vui vẻ khônng buồn bã và luôn giữ nụ cười ở trên môi để che lấp đi những giọt nước mắt những nỗi buồn mà anhh đã làm aaa, chúc emm ngày càng xinh đẹp aa sức khoẻ dồi dào và luôn là của anhh và là chính mình emm nhé!
+Em bé ơi, anh không muốn mất em đâu... Anh không biết liệu em có đọc được những dòng này không, nhưng nếu em đọc, anh cảm ơn em vì đã cho anh một cơ hội để trút hết lòng mình. 
 
-Cuối cùng anhh xin cảm ơn emm đã luôn đồng hành cùng anhh aa!!! 
-Anhh yêu emm Hà Ngọc Diệu Linh. ❤️`;
+Từ ngày hôm đó, anh cứ suy nghĩ mãi về chuyện của hai đứa. Anh dằn dặt đến mức trở thành một người mà chính anh cũng không còn nhận ra. Nhiều lần em nhắn đừng liên quan đến nhau nữa, nhưng anh thật sự không làm được. Hôm trước nghe tin em bị ngã xe, anh sợ lắm... Anh chỉ biết lặng lẽ qua nhìn em đi học, cũng không dám đi lại quá gần em.
+
+Anh chưa bao giờ xem tình cảm là điều dễ dàng buông bỏ. Khi đã chọn yêu em, anh chưa từng nghĩ đến chuyện sẽ rời xa em. Cho dù em có nói những lời nặng nề nhất, anh cũng không bao giờ bỏ em bé đâu... anh không làm được. Ngày em đi, anh buồn và đau đến mức nguyên cả ngày chẳng ăn uống được gì, đêm nào nằm ngủ cũng mơ thấy em. Ngày nào anh cũng chạy xe qua nhà em một vòng rồi mới chịu về...
+
+Anh viết những dòng này ra, không dám mong em sẽ dễ dàng tha thứ ngay. Anh chỉ mong mình vẫn còn một cơ hội — dù là nhỏ ngoi nhất. Anh vẫn muốn được tiếp tục đồng hành cùng em, không muốn mất em bé đâu...
+
+ANH YÊU EM, HÀ NGỌC DIỆU LINH! ❤️`;
 
 const startBtn = document.getElementById('start-btn');
 const textBox = document.getElementById('text-box');
@@ -23,7 +28,7 @@ function typeWriter() {
         textBox.innerHTML += textToType.charAt(index);
         index++;
         textBox.scrollTop = textBox.scrollHeight; // Tự động cuộn hộp thư xuống khi chữ dài ra
-        setTimeout(typeWriter, 75); // Tốc độ chạy từng chữ (75ms/ký tự)
+        setTimeout(typeWriter, 65); // Đã chỉnh tốc độ gõ vừa phải để người đọc thấm từng câu
     }
 }
 
