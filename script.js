@@ -1,19 +1,17 @@
 // Nội dung bức thư gửi Hà Ngọc Diệu Linh
-const textToType = `Hello em bé yêu! 
+const textToType = `Hi em bé yêu! 
 
-Chiều nay anh mới lấy hết can đảm để viết những dòng này cho em. Anh nhớ em nhiều lắm, nhưng sợ làm phiền em nên anh không dám nhắn tin напрямую...
+Chiều nay anh mới lấy hết can đảm để viết cái này cho em vì anh nhớ em quá. Nhưng sợ sẽ làm phiền em nên anh không gửi tin nhắn đâu...
 
-Gần 3 tháng từ ngày em nói chia tay, nhưng chưa một khoảnh khắc nào anh muốn em rời đi cả. Lúc còn ở bên anh, anh chỉ toàn mang lại phiền phức và làm em phải khóc. Ngày trước khi em chưa đi, anh còn có thể tìm em, hỏi xem em đang làm gì. Còn bây giờ, mỗi lần nhớ em, anh chỉ biết vào TikTok tìm em rồi ngồi ngẩn người ra... Anh lại mở máy coi lại những bức hình cũ, nhìn mấy con gấu bông em tặng mà cứ ngắm mãi. Đi học, ngồi ở đâu mắt anh cũng chỉ hướng về phía em.
+Gần 3 tháng từ khi em nói chia tay, nhưng anh chưa bao giờ muốn em đi cả. Em ở bên anh, anh chỉ mang tới những phiền phức với toàn làm em khóc thôi. Mọi bựa em chưa đi, anh còn có thể tìm em với hỏi em đang làm gì. Nhưng giờ anh nhớ em là anh vô TikTok tìm em rồi ngồi ngẩn người ra, mở máy coi lại hình em với mấy con gấu em tặng anh, anh cứ coi hắn mãi... Đi học ngồi ở đâu anh cũng nhìn em hết, anh nhớ em bé quá! 
 
-Anh nhớ em bé nhiều lắm! Nhưng có lẽ đây là hình phạt đích đáng dành cho anh. Anh đã dối em hết lần này đến lần khác, lại còn làm những điều em không thích. Cắc chắn em đã phải chịu đựng và khó chịu với anh lắm mới quyết định buông tay như vậy. Anh quá vụng về, ích kỷ và đã làm tổn thương người quan trọng nhất cuộc đời mình.
+Nhưng đó như hình phạt cho anh rứa hè. Anh nói dối em lần này đến lần khác, rồi còn làm điều em không thích nữa, làm em khó chịu với anh lắm mới quyết định nói chia tay như rứa. Anh vụng về quá, ích kỷ làm tổn thương em - người quan trọng nhất. 
 
-Em bé ơi, anh không muốn mất em đâu... Anh không biết liệu em có đọc được những dòng này không, nhưng nếu em đọc, anh cảm ơn em vì đã cho anh một cơ hội để trút hết lòng mình. 
+Em bé ơi, anh không muốn mất em đâu! Anh không biết em có đọc những dòng này của anh không, nhưng nếu em đọc thì anh cảm ơn em đã cho anh một cơ hội nói ra hết. Từ ngày hôm đó, anh cứ suy nghĩ mãi về anh và em. Anh trở thành người mà anh không nhận ra anh là ai nữa, anh buồn quá mới nói ra hết. Nhiều lần em nói anh đừng liên quan tới nhau nữa, nhưng anh không làm như rứa được. Hôm bựa em bị ngã xe anh sợ lắm, bơ anh mới qua coi em đi học, với lại anh cũng không đi gần em đâu.
 
-Từ ngày hôm đó, anh cứ suy nghĩ mãi về chuyện của hai đứa. Anh dằn dặt đến mức trở thành một người mà chính anh cũng không còn nhận ra. Nhiều lần em nhắn đừng liên quan đến nhau nữa, nhưng anh thật sự không làm được. Hôm trước nghe tin em bị ngã xe, anh sợ lắm... Anh chỉ biết lặng lẽ qua nhìn em đi học, cũng không dám đi lại quá gần em.
+Anh chưa có khi nào coi tình cảm là cái dễ dàng buông bỏ đâu. Khi anh chọn yêu em, anh chưa từng nghĩ tới chuyện sẽ bỏ em đâu. Cho dù em có nói những cái chi nặng lời nhất thì anh cũng không bao giờ bỏ em đâu, anh không bỏ em được. Ngày em đi anh buồn anh đau rứa, từ ngày đó anh không ăn một cái chi nguyên cả ngày, nằm mơ mãi luôn. Hôm nào anh cũng qua nhà em một vòng rồi về... Anh nhớ em bé nhiều lắm rồi!
 
-Anh chưa bao giờ xem tình cảm là điều dễ dàng buông bỏ. Khi đã chọn yêu em, anh chưa từng nghĩ đến chuyện sẽ rời xa em. Cho dù em có nói những lời nặng nề nhất, anh cũng không bao giờ bỏ em bé đâu... anh không làm được. Ngày em đi, anh buồn và đau đến mức nguyên cả ngày chẳng ăn uống được gì, đêm nào nằm ngủ cũng mơ thấy em. Ngày nào anh cũng chạy xe qua nhà em một vòng rồi mới chịu về...
-
-Anh viết những dòng này ra, không dám mong em sẽ dễ dàng tha thứ ngay. Anh chỉ mong mình vẫn còn một cơ hội — dù là nhỏ ngoi nhất. Anh vẫn muốn được tiếp tục đồng hành cùng em, không muốn mất em bé đâu...
+Anh viết những dòng này ra anh không mong em tha thứ cho anh đâu, anh chỉ mong vẫn có một cơ hội dù cho là nhỏ nhất thôi. Anh vẫn muốn được đồng hành cùng em thêm nữa, không muốn mất em. Anh mong anh sẽ được đồng hành cùng em bé...
 
 ANH YÊU EM, HÀ NGỌC DIỆU LINH! ❤️`;
 
@@ -28,7 +26,7 @@ function typeWriter() {
         textBox.innerHTML += textToType.charAt(index);
         index++;
         textBox.scrollTop = textBox.scrollHeight; // Tự động cuộn hộp thư xuống khi chữ dài ra
-        setTimeout(typeWriter, 65); // Đã chỉnh tốc độ gõ vừa phải để người đọc thấm từng câu
+        setTimeout(typeWriter, 75); // Tốc độ chạy từng chữ (75ms/ký tự)
     }
 }
 
