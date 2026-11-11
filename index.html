@@ -3,23 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gửi Emm Bee Yêu ❤️</title>
-    <!-- Liên kết với file giao diện CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>Gửi Công Chúa Của Anh</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .card {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 360px;
+            text-align: center;
+        }
+        .title {
+            font-size: 15px;
+            color: #d81b60;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        .content {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+        .image-box {
+            width: 130px;
+            height: 160px;
+            border-radius: 12px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .keypad {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            flex-grow: 1;
+        }
+        .key {
+            background: #f8f9fa;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: #333;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .key:active {
+            background: #e0e0e0;
+        }
+        .display-dots {
+            grid-column: span 3;
+            background: #fff0f5;
+            border-radius: 8px;
+            padding: 8px;
+            font-size: 18px;
+            letter-spacing: 6px;
+            color: #d81b60;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 4px;
+            border: 1px solid #f8bbd0;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Nút bấm mở quà và kích hoạt nhạc -->
-        <button id="start-btn">Bấm vô cái ni nì</button>
-        <!-- Hộp chứa chữ chạy -->
-        <div id="text-box" class="hidden"></div>
+    <div class="card">
+        <div class="title" id="status-text">Hãy nhập ngày sinh của công chúa</div>
+        <div class="content">
+            <div class="image-box">
+                <!-- Thay link ảnh của bạn vào đây -->
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb" alt="Avatar">
+            </div>
+            <div class="keypad">
+                <div class="display-dots" id="dots">_ _ _ _</div>
+                <button class="key" onclick="press('1')">1</button>
+                <button class="key" onclick="press('2')">2</button>
+                <button class="key" onclick="press('3')">3</button>
+                <button class="key" onclick="press('4')">4</button>
+                <button class="key" onclick="press('5')">5</button>
+                <button class="key" onclick="press('6')">6</button>
+                <button class="key" onclick="press('7')">7</button>
+                <button class="key" onclick="press('8')">8</button>
+                <button class="key" onclick="press('9')">9</button>
+                <button class="key" onclick="clearInput()" style="grid-column: span 3; font-size: 14px; background: #ffebee; color: #c62828;">C</button>
+            </div>
+        </div>
     </div>
 
-    <!-- ĐÃ SỬA: Web sẽ gọi trực tiếp file nhạc nhac.mp3 bạn up lên GitHub để không bị lỗi chặn nhạc -->
-    <audio id="my-audio" src="yeu.mp3" loop></audio>
+    <script>
+        let pin = "";
+        const correctPin = "1811"; // Mật khẩu đã được cập nhật thành 1811
 
-    <!-- Liên kết với file xử lý JavaScript -->
-    <script src="script.js"></script>
+        function press(num) {
+            if (pin.length < 4) {
+                pin += num;
+                updateDisplay();
+                if (pin.length === 4) {
+                    checkPin();
+                }
+            }
+        }
+
+        function updateDisplay() {
+            let displayStr = "";
+            for (let i = 0; i < pin.length; i++) {
+                displayStr += "• ";
+            }
+            for (let i = pin.length; i < 4; i++) {
+                displayStr += "_ ";
+            }
+            document.getElementById("dots").innerText = displayStr.trim();
+        }
+
+        function clearInput() {
+            pin = "";
+            updateDisplay();
+            document.getElementById("status-text").innerText = "Hãy nhập ngày sinh của công chúa";
+        }
+
+        function checkPin() {
+            if (pin === correctPin) {
+                document.getElementById("status-text").innerText = "💖 Chúc mừng sinh nhật em! 💖";
+                document.getElementById("dots").style.color = "#2e7d32";
+            } else {
+                document.getElementById("status-text").innerText = "❌ Sai rồi, nhập lại nha!";
+                setTimeout(() => {
+                    clearInput();
+                }, 1000);
+            }
+        }
+    </script>
 </body>
 </html>
