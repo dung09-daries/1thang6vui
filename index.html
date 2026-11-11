@@ -4,97 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gửi Công Chúa Của Anh</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-        body {
-            background-color: #fce4ec;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-        .card {
-            background: #ffffff;
-            padding: 24px;
-            border-radius: 24px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            width: 360px;
-            text-align: center;
-        }
-        .title {
-            font-size: 15px;
-            color: #d81b60;
-            margin-bottom: 16px;
-            font-weight: 600;
-        }
-        .content {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-        }
-        .image-box {
-            width: 130px;
-            height: 160px;
-            border-radius: 12px;
-            overflow: hidden;
-            flex-shrink: 0;
-        }
-        .image-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .keypad {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 8px;
-            flex-grow: 1;
-        }
-        .key {
-            background: #f8f9fa;
-            border: none;
-            border-radius: 8px;
-            padding: 12px 0;
-            font-size: 16px;
-            font-weight: 500;
-            color: #333;
-            cursor: pointer;
-            transition: background 0.2s;
-        }
-        .key:active {
-            background: #e0e0e0;
-        }
-        .display-dots {
-            grid-column: span 3;
-            background: #fff0f5;
-            border-radius: 8px;
-            padding: 8px;
-            font-size: 18px;
-            letter-spacing: 6px;
-            color: #d81b60;
-            height: 38px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 4px;
-            border: 1px solid #f8bbd0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="card">
+    <!-- PHẦN NHẬP MẬT KHẨU -->
+    <div class="card" id="login-card">
         <div class="title" id="status-text">Hãy nhập ngày sinh của công chúa</div>
         <div class="content">
             <div class="image-box">
-                <!-- Thay link ảnh của bạn vào đây -->
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb" alt="Avatar">
+                <img src="anh2.jpg" alt="Avatar">
             </div>
             <div class="keypad">
                 <div class="display-dots" id="dots">_ _ _ _</div>
@@ -112,48 +31,21 @@
         </div>
     </div>
 
-    <script>
-        let pin = "";
-        const correctPin = "1811"; // Mật khẩu đã được cập nhật thành 1811
+    <!-- PHẦN THIỆP CHÚC MỪNG (Hiện ra khi nhập đúng 1811 và chạy máy đánh chữ) -->
+    <div class="card" id="wish-card" style="display: none;">
+        <div class="wish-container">
+            <img src="anh2.jpg" alt="Wish Image" class="wish-img">
+            <div class="wish-text">
+                <h3>Gửi emm beee,</h3>
+                <!-- Hộp văn bản để chạy hiệu ứng máy đánh chữ -->
+                <p id="hộp văn bản" style="white-space: pre-line; max-height: 180px; overflow-y: auto; text-align: left; font-size: 12px; line-height: 1.5;"></p>
+            </div>
+        </div>
+    </div>
 
-        function press(num) {
-            if (pin.length < 4) {
-                pin += num;
-                updateDisplay();
-                if (pin.length === 4) {
-                    checkPin();
-                }
-            }
-        }
+    <!-- Âm thanh nền -->
+    <audio id="âm thanh của tôi" src="yeu.mp3" preload="auto" loop></audio>
 
-        function updateDisplay() {
-            let displayStr = "";
-            for (let i = 0; i < pin.length; i++) {
-                displayStr += "• ";
-            }
-            for (let i = pin.length; i < 4; i++) {
-                displayStr += "_ ";
-            }
-            document.getElementById("dots").innerText = displayStr.trim();
-        }
-
-        function clearInput() {
-            pin = "";
-            updateDisplay();
-            document.getElementById("status-text").innerText = "Hãy nhập ngày sinh của công chúa";
-        }
-
-        function checkPin() {
-            if (pin === correctPin) {
-                document.getElementById("status-text").innerText = "💖 Chúc mừng sinh nhật em! 💖";
-                document.getElementById("dots").style.color = "#2e7d32";
-            } else {
-                document.getElementById("status-text").innerText = "❌ Sai rồi, nhập lại nha!";
-                setTimeout(() => {
-                    clearInput();
-                }, 1000);
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
