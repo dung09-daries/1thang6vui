@@ -1,30 +1,23 @@
-// Nội dung bức thư gửi Hà Ngọc Diệu Linh
-const textToType = `Hi lô  Emm beee hì chiều ni anhh lấy hết can đảm để viết cái ni cho em vi anh nhớ em quái nhma sợ sẽ làm phiền emm nên anhh k gửi tin nhắn mô , gần 3 tháng từ khi em ctay anhh nhma anhh k bao h muốn emm đi cả emm ở bên anhh anhh chỉ mang tới những phiền phức vs toàn làm emm khóc thôi , mọi bựa emmn bee chua đi anhh còn có thể tìm emmm bee vs hỏi emm làm chi đó nhma chừ anhh nhớ emm là anhh vô tik tìm emm bee xong bơ ngẩn người ra vs mở máy ra coi hình emm bee vs mấy con gấu emm bee tặng anhh anhh cứ coi hắn mãi , đi học anhh ngồi mô anhh cx nhìn emm hết cả anhh nhớ emm bee quái nhma đó như hình phạt cho anh rứa he anhh nói dối emm lần ni đến lần khác r còn làm điều em không thích nựa chơ emm bee è khó chịu vs anhh lắm hè mới quyết định nói chia tay như rứa anhh vụng về quái ích kỉ làm tổn thương emm người qtrong nhất emm bee ơi anhh k muốn mất emm mô anhh không biết emm bee đọc những dòng ni của anhh mô nhma nếu emm đọc thì anh cảm ơn emm đã cho anhh 1 cơ hội nói ra hết từ ngày hôm nớ anhh cứ suy nghĩ mãi về anhh vs về em anhh trở thành người mà anhh k nhận ra anhh là ai nữa anhh buồn hung quái anhh ms nói ra hết nhiều lần emm nói anhh là đừng liên quan tới chắc nữa nhma anhh k làm như rứa được hôm bựa emm bee bị bổ xe anhh sợ , bơ anhh mới qua coi emm đi học vs laii anhh cx k đi gânf emm bee mô . Anh chưa có khi mô coi tình cảm là cấy dễ dàng buông bỏ mô khi anhh chọn yêu emm bee anhh chưa nghĩ tới chuyện là bỏ emm mô cho dù emm bee có nói những cấy chi nặng lời nhất thì anh cũng k bao h bỏ emm bee mô anhh k bỏ emm được ngày emm bee đi anhh buồn anhh đau aa rua từ ngày nớ anhh k ăn 1 cái chi nguyên 1 ngày nớ anh nằm mơ mãi luon aaa hôm mô anhh cũng qua nhà emm1 vòng rồi về hết aaaa anhh nhớ emm bee nhìu lắm rồi… anhh viết những dòng ni ra anhh k mong emm bee tha thứ cho anhh mô aaa anh chỉ mong vẫn có 1 cơ hội dù cho là nhỏ nhất thuii aaa anhh vẫn muốn được đồng hành cùng emmm them nữa k muon mất emm anhh mong anhh se duoc đồng hành cùng emm bee..ANH YÊU EMM HA NGOC DIEU LINH`;
+// Nội dung thư gửi Hà Ngọc Diệu Linh
+hằng số văn bản cần nhập = `Chào emm beee,
 
-const startBtn = document.getElementById('start-btn');
-const textBox = document.getElementById('text-box');
-const audio = document.getElementById('my-audio');
+Nghe chắc là lâu rồi mới nghe 2 chữ emm bee hè, chắc là emm bee cũng không rảnh để vô đọc cái ni mô nhma chừ anh gửi tin nhắn hắn sẽ phiền em. Sinh nhật năm trước của em thì có anhh nhma nhắn không vui. Năm ni không có anh thì hắn sẽ vui hơn rất nhiều.
 
-let index = 0;
+Anhh chúc emm bee sẽ luôn thành công trong cuộc sống luôn hạnh phúc, thành công trên con đường đã chọn, luôn xinh đẹp, không được yếu đuối mô nghe. Anh xin lỗi vì không đủ can đảm để nhắn chúc sinh nhật em 1 cách đàng hoàng, sinh nhật năm ni vs cả năm sau anh cx k đc đón tuổi mới cùng em nữa mô.
 
-function typeWriter() {
-    if (index < textToType.length) {
-        textBox.innerHTML += textToType.charAt(index);
-        index++;
-        textBox.scrollTop = textBox.scrollHeight;
-        setTimeout(typeWriter, 75);
+Chúc em hạnh phúc và đặc biệt anh chúc em sẽ tìm được một người mới cùng đón sinh nhật với em nha. Xin lỗi vì đã làm bẩn 1 phần kí ức của em. Cuối cùng anh chúc em sinh nhật vui vẻ nha! ❤️`;
+
+hằng số nút bắt đầu = tài liệu.getElementById('nút bắt đầu');
+hằng số hộp văn bản = tài liệu.getElementById('hộp văn bản');
+hằng số âm thanh = tài liệu.getElementById('âm thanh của tôi');
+
+cho phép chỉ mục = 0;
+
+chức năng Máy đánh chữ() {
+    nếu như (chỉ mục < văn bản cần nhập.chiều dài) {
+        hộp văn bản.innerHTML += văn bản cần nhập.charAt(chỉ mục);
+        chỉ mục++;
+        hộp văn bản.cuộn lên trên = hộp văn bản.chiều cao cuộn;
+        đặt thời gian chờ(Máy đánh chữ, 75);
     }
 }
-
-startBtn.addEventListener('click', () => {
-    startBtn.classList.add('hidden');
-    textBox.classList.remove('hidden');
-
-    // Phát bài nhạc Nếu Ngày Ấy (Piano)
-    audio.play().catch(error => {
-        console.log("Trình duyệt chặn phát nhạc: ", error);
-    });
-
-    // Bắt đầu chạy chữ tự động
-    typeWriter();
-});
